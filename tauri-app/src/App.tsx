@@ -1,6 +1,3 @@
-import React, { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import { invoke } from "@tauri-apps/api/tauri";
 import { ChakraProvider, Box, Flex } from "@chakra-ui/react";
 import TemperatureGraph from "./compoments/TemperatureGraph";
 import ScrollableButtons from "./compoments/ScrollableButtons"; // Ensure this is imported correctly
@@ -9,12 +6,6 @@ import "./App.css";
 //test
 
 function App() {
-    const [greetMsg, setGreetMsg] = useState("");
-    const [name, setName] = useState("");
-
-    async function greet() {
-        setGreetMsg(await invoke("greet", { name }));
-    }
 
     const temperatureData: ChartData<'line'> = {
         labels: ['9:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00'],

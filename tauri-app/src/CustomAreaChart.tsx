@@ -1,3 +1,4 @@
+/*
 import { AreaChart, XAxis, YAxis, Area, Tooltip } from 'recharts';
 
 const rangeData = [
@@ -83,4 +84,4 @@ export const CustomAreaChart = () => {
         </AreaChart>
     );
 };    
-  
+*/
