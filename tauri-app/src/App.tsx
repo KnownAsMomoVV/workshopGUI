@@ -6,6 +6,7 @@ import TemperatureGraph from "./compoments/TemperatureGraph";
 import ScrollableButtons from "./compoments/ScrollableButtons"; // Ensure this is imported correctly
 import { ChartData } from 'chart.js';
 import "./App.css";
+//test
 
 function App() {
     const [greetMsg, setGreetMsg] = useState("");
